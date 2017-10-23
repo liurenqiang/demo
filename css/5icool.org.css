@@ -1,0 +1,28 @@
+/* 酷站代码整理 http://www.5icool.org */
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,form,img,dl,dt,dd,table,th,td,blockquote,fieldset,div,strong,label,em{margin:0;padding:0;border:0;}
+ul,ol,li{list-style:none;}
+input,button{margin:0;font-size:12px;vertical-align:middle;}
+body{font-size:12px;font-family:Arial, Helvetica, sans-serif;  margin:0 auto; }
+.box-cnfen{ width:906px; background:#6e6f73; height:680px; margin:0 auto;}
+#slideshow {list-style:none; color:#fff; width:860px; overflow:hidden;}
+#slideshow span {display:none}
+#wrapper {width:880px; margin:0 auto; display:none}
+#fullsize{position:relative; top:20px; width:860px; height:500px; padding:2px; border:1px solid #ccc; background:#929498}
+#fullsize img{ width:100%; height:500px;}
+#information {position:absolute; bottom:0; display:none; width:500px; height:0; background:#000; color:#fff; overflow:hidden; z-index:200; opacity:.7; filter:alpha(opacity=70)}
+#information h3 {padding:4px 8px 3px; font-size:14px}
+#information p {padding:0 8px 8px}
+#image {width:860px;}
+#image img {position:absolute; z-index:25; width:860px;}
+.imgnav {position:absolute; width:25%; height:306px; cursor:pointer; z-index:150}
+#imgprev {left:0; background:url(../images/left.gif) left center no-repeat; top:100px;}
+#imgnext {right:0; background:url(../images/right.gif) right center no-repeat;top:100px;}
+#imglink {position:absolute; height:500px; width:100%; top:50px; width:100%; z-index:100; opacity:.4; filter:alpha(opacity=40)}
+#thumbnails { width:100%; height:90px; padding-top:20px;}
+#slideleft {float:left; width:20px; height:81px; background:url(../images/scroll-left.gif) center center no-repeat; cursor:pointer;}
+#slideleft:hover {background:url(../images/scroll-left2.gif) center center no-repeat;}
+#slideright {float:right; width:20px; height:81px; background:url(../images/scroll-right.gif) center center no-repeat; cursor:pointer;}
+#slideright:hover {background:url(../images/scroll-right2.gif) center center no-repeat;}
+#slidearea {float:left; position:relative; width:828px; margin-left:5px; height:81px; overflow:hidden}
+#slider {position:absolute; left:0; height:81px}
+#slider img {cursor:pointer; border:1px solid #d3d6d8; padding:1px; width:129px; height:77px;}

@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="Copyright" content="酷站代码 http://www.5icool.org/" />
+<title>小强妹专属相册</title>
+<link href="css/5icool.org.css" type="text/css" rel="stylesheet">	
+</head>
+<body>
+	<div class="box-cnfen">
+	<ul id="slideshow">
+		<li>
+			<h3></h3>
+			<span>images/img01.jpg</span>
+			<p></p>
+			<a href=""><img src="images/img01s.jpg" alt="" /></a>
+		</li>
+		<li>
+			<h3></h3>
+			<span>images/img02.jpg</span>
+			<p></p>
+			<a href=""><img src="images/img02s.jpg" alt="
+" /></a>
+		</li>
+		<li>
+			<h3></h3>
+			<span>images/img03.jpg</span>
+			<p></p>
+			<a href=""><img src="images/img03s.jpg" alt="" /></a>
+		</li>
+		<li>
+			<h3></h3>
+			<span>images/img04.jpg</span>
+			<p></p>
+			<a href=""><img src="images/img04s.jpg" alt="" /></a>
+		</li>
+		<li>
+			<h3></h3>
+			<span>images/img05.jpg</span>
+			<p></p>
+			<a href=""><img src="images/img05s.jpg" alt="" /></a>
+		</li>
+		<li>
+			<h3></h3>
+			<span>images/img06.jpg</span>
+			<p></p>
+			<a href=""><img src="images/img06s.jpg" alt="" /></a>
+		</li>
+		<li>
+			<h3></h3>
+			<span>images/img07.jpg</span>
+			<p></p>
+			<a href=""><img src="images/img07s.jpg" alt="" /></a>
+		</li>
+		<li>
+			<h3></h3>
+			<span>images/img08.jpg</span>
+			<p></p>
+			<a href=""><img src="images/img08s.jpg" alt="" /></a>
+		</li>
+	</ul>
+	<div id="wrapper">
+		<div id="thumbnails">
+			<div id="slideleft"></div>
+			<div id="slidearea">
+				<div id="slider"></div>
+			</div>
+			<div id="slideright"></div>
+		</div>
+		<div id="fullsize">
+			<div id="imgprev" class="imgnav" title="上一张"></div>
+			<div id="imglink" href="javascript:;"onClick=javascript:window.open('')></div>
+			<div id="imgnext" class="imgnav" title="下一张"></div>
+			<div id="image"  href="javascript:;"onClick=javascript:window.open('')></div>
+			<div id="information">
+				<h3></h3>
+				<p></p>
+			</div>
+		</div>
+		
+	</div>
+<script type="text/javascript" src="js/5icool.org.js"></script>
+<script type="text/javascript">
+	$('slideshow').style.display='none';
+	$('wrapper').style.display='block';
+	var slideshow=new TINY.slideshow("slideshow");
+	window.onload=function(){
+		slideshow.auto=true;
+		slideshow.speed=5;
+		slideshow.link="linkhover";
+		slideshow.info="information";
+		slideshow.thumbs="slider";
+		slideshow.left="slideleft";
+		slideshow.right="slideright";
+		slideshow.scrollSpeed=4;
+		slideshow.spacing=5;
+		slideshow.active="#fff";
+		slideshow.init("slideshow","image","imgprev","imgnext","imglink");
+	}
+</script>
+	</div>
+
+<div align="center" style="clear:both;font-size:12px;color:#666;" id="foot_bm"><strong>小强妹妹专属相册</strong></a></div>
+
+<p align="center" style="font-size:12px;">版权归大强哥所有(*^__^*)  </p>
+
+</body>
+</html>
